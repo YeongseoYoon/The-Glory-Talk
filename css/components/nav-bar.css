@@ -32,3 +32,10 @@
     color: white;
     font-weight: 600;
 }
+
+.nav__notification--sm{
+    width: 5px;
+    height: 5px;
+    left:25px;
+    bottom: 24px;
+}
