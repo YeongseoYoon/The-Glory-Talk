@@ -13,3 +13,26 @@
 .screen-header__icons span{
     margin-left: 25px
 }
+
+.screen-header__icons > span{
+    margin-left: 25px;
+    position: relative;
+}
+
+.screen-header__whitecircle{
+    position: absolute;
+    left: -12px;
+    bottom: 2px;
+    border-radius: 50%;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+.screen-header__icons .fa-plus{
+    position: absolute;
+    left: 14px;
+    bottom: 6px;
+    background-color: white;
+}
