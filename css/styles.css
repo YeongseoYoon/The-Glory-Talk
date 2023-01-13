@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "variables.css";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
 
 /* Components */
 @import "components/status-bar.css";
@@ -9,7 +10,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
-
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -22,7 +23,7 @@
 body{
     height: 100%;
     box-sizing: border-box;
-    padding: 42px 0px 73px 0px;
+    margin: 42px 0px 73px 0px;
     color:#2e363e;
     font-family: Arial, Helvetica, sans-serif;
     -ms-overflow-style: none; /* IE and Edge */
