@@ -7,8 +7,13 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    background-color: white;
+    color:azure;
     z-index: 10;
+    background-color: var(--main-color);
+}
+
+.status-bar i{
+    cursor: default;
 }
 
 .status-bar__column{

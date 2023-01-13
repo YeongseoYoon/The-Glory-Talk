@@ -14,7 +14,7 @@
 }
 
 .welcome-header__text{
-    width: 60%;
+    width: 70%;
     opacity: 0.6;
 }
 
@@ -25,35 +25,65 @@
 }
 
 #login-form input{
-    padding: 15px 0px;
+    padding: 15px 10px;
     border: none;
     font-size: 18px;
     margin-bottom: 25px;
 }
 
 #login-form input:not([type="submit"]){
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background: none;
+    border-bottom: 1px solid rgb(167, 167, 167);
     transition: border-color .3s ease-in-out;
+    color: azure;
 }
 
 #login-form input::placeholder{
-    color: rgba(0, 0, 0, 0.2);
+    color: var(--font-color);
 }
 
 #login-form input:focus{
-    border-color: var(--yellow);
+    border-color: var(--font-color);
 }
 
 #login-form input[type="submit"]{
-    background-color: var(--yellow);
+    background-color: var(--font-color);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
 } 
 
-#login-form a{
+#login-form input[type="submit"]:active{
+    color:var(--font-color);
+    background-color: var(--main-color);
+    box-shadow : 0px 5px 15px #ffffff;
+}
+
+.login-form__account-find{
+    display: flex;
+    justify-content: center;
+}
+
+.login-form__account-find a{
+    margin: 0px 10px;
     text-align: center;
     text-decoration: none;
     color: inherit;
     font-size: 14px;
+    border-bottom: none;
+    transition: underlineAccount 1s ease-in-out;
 }
+
+.login-form__account-find a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px var(--font-color);  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.login-form__account-find a:hover:after{
+    transform: scaleX(1); 
+}
+
+

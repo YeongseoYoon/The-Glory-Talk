@@ -1,6 +1,8 @@
 :root{
-    --yellow: #fae100;
+    --main-color: #363230;
     --horizontal-space: 25px;
-    --main-border:1px solid rgba(0,0,0,0.2);
+    --main-border:1px solid azure;
+    --font-color:azure;
+    --font-sub-color:#aaaaaa;
     --grey: rgba(0,0,0,0.4);
 }

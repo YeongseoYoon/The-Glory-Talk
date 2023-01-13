@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - Kokoa Clone</title>
-    <link href="/css/styles.css" rel="stylesheet" />
+    <title>Settings | The Glory Talk</title>
+    <link href="img/백합.png" rel="shortcut icon" type="image/x-icon">
     <script defer src="https://kit.fontawesome.com/ec08099fdd.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <div class="status-bar__column">
             <span>76%</span>
             <!--To Do: Battery Icon-->
-            <i class="fa-solid fa-battery-three-quarters fa-2x"></i>
+            <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
             <!--To Do: Lightning Icon-->
             <i class="fa-solid fa-bolt"></i>
         </div>
@@ -42,33 +42,126 @@
         </div>
     </header>
 
-    <main class="main-screen more-screen">
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="img/문동은.jpg" class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">문동은</h4>
+                    <h6 class="user-component__subtitle">
+                        +82 10-4444-4444
+                    </h6>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <div class="user-profile-edit">
+                    <span>프로필 관리</span>
+                </div>
+            </div>
+        </div>
         <ul class="settings-list">
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <span>Notices</span>
+                    <i class="fa-regular fa-user"></i>
+                    <span>더 글로리 계정</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-lock"></i>
+                    <span>개인/보안</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-regular fa-bell"></i>
+                    <span>알림</span>
+                </div>
+                <div class="settings__setting-column">
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-regular fa-sun"></i>
+                    <span>화면</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-brush"></i>
+                    <span>테마</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-regular fa-comment"></i>
+                    <span>채팅</span>
+                </div>
+                <div class="settings__setting-column">
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>통화</span>
                 </div>
                 <div class="settings__setting-column"></div>
             </li>
             <li class="settings__setting">
                 <div class="settings__setting-column">
                     <i class="fa-solid fa-flask"></i>
-                    <span>Kokoa Lab</span>
+                    <span>실험실</span>
                 </div>
                 <div class="settings__setting-column"></div>
             </li>
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="fa-solid fa-info-circle"></i>
-                    <span>Version</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <span>기타</span>
                 </div>
                 <div class="settings__setting-column">
-                    Latest Version
+                </div>
+            </li>
+            <li class="settings__setting setting-border">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <span>공지사항</span>
+                </div>
+                <div class="settings__setting-column">
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-hands-clapping"></i>
+                    <span>더 글로리 톡 안녕가이드</span>
+                </div>
+                <div class="settings__setting-column">
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-regular fa-circle-question"></i>
+                    <span>고객센터/운영정책</span>
+                </div>
+                <div class="settings__setting-column">
+                </div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>앱 관리</span>
+                </div>
+                <div class="settings__setting-column">
+                    v10.0.5
                 </div>
             </li>
         </ul>
     </main>
+
 
     <nav class="nav">
         <ul class="nav__list">
@@ -77,7 +170,7 @@
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>
+                    <span class="nav__notification badge">2</span>
                     <i class="fa-regular fa-comment fa-2x"></i>
                 </a>
             </li>
@@ -86,14 +179,15 @@
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="more.html">
-                    <span class="nav__notification badge badge--sm"></span>
+                    <span class="nav__notification--sm badge badge--sm"></span>
                     <i class="fa-solid fa-ellipsis fa-2x"></i>
                 </a>
             </li>
         </ul>
     </nav>
     <div id="no-mobile">
-        <span>Your screen is too big ㅠㅠ</span>
+        <span>화면 사이즈가 너무 큽니다.</span>
+        <span>사이즈를 줄여주세요.</span>
     </div>
 
 </body>

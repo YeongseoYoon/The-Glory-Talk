@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>More - Kokoa Clone</title>
+    <title>More | The Glory Talk</title>
+    <link href="img/백합.png" rel="shortcut icon" type="image/x-icon">
     <link href="/css/styles.css" rel="stylesheet" />
     <script defer src="https://kit.fontawesome.com/ec08099fdd.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <div class="status-bar__column">
             <span>76%</span>
             <!--To Do: Battery Icon-->
-            <i class="fa-solid fa-battery-three-quarters fa-2x"></i>
+            <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
             <!--To Do: Lightning Icon-->
             <i class="fa-solid fa-bolt"></i>
         </div>
@@ -41,68 +41,120 @@
     </header>
 
     <main class="main-screen more-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="img/my-profile.jpg" class="user-component__avatar user-component__avatar--xl" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Yeongseo</h4>
-                    <h6 class="user-component__subtitle">
-                        +82 010-0000-0000
-                        <i class="fa-solid fa-info"></i>
-                    </h6>
+        <div class="user-wallet">
+            <div class="user-wallet-header">
+                <div class="user-wallet-header__column">
+                    <span>지갑 <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+                </div>
+                <div class="user-wallet__column">
+                    <span><i class="fa-solid fa-key"></i> 인증서</span>
+                </div>
+
+            </div>
+            <div class="user-wallet-box">
+                <div class="user-wallet-box__column">
+                    <span>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-calculator"></i>
+                        22년 연말정산도 톡으로 쉽게
+                    </span>
+                </div>
+                <div class="user-wallet-box__column">
+                    <span><i class="fa-solid fa-chevron-right fa-xs"></i></span>
                 </div>
             </div>
-            <div class="user-component__column">
-                <i class="fa-regular fa-comment-alt fa-2x"></i>
+            <div class="user-wallet-pay">
+                <div class="user-wallet-pay__column">
+                    <span>
+                        <i class="fa-solid fa-comment"></i> Pay
+                    </span>
+                </div>
+                <div class="user-wallet-pay__column">
+                    <span>200,342,100원</span>
+                </div>
             </div>
-
+            <div class="user-wallet-send">
+                <div class="user-wallet-send__column">
+                    <span>송금</span>
+                    <span class="divider-bar">|</span>
+                    <span>결제</span>
+                    <span class="divider-bar">|</span>
+                    <span>자산</span>
+                </div>
+                <div class="user-wallet-send__column">
+                    <span><i class="fa-solid fa-cart-shopping"></i> 구매내역</span>
+                </div>
+            </div>
         </div>
 
-        <div class="icon-row">
+        <div class="icon-row more-icon">
             <div class="icon-row__icon">
-                <i class="fa-regular fa-calendar"></i>
+                <i class="fa-solid fa-gift"></i>
                 <span>
-                    Calendar
+                    선물하기
                 </span>
             </div>
             <div class="icon-row__icon">
                 <i class="fa-regular fa-smile-beam"></i>
                 <span>
-                    Emoticons
+                    이모티콘
                 </span>
             </div>
             <div class="icon-row__icon">
-                <i class="fa-solid fa-paint-roller"></i>
+                <i class="fa-solid fa-shop"></i>
                 <span>
-                    Themes
+                    쇼핑하기
                 </span>
             </div>
             <div class="icon-row__icon">
-                <i class="fa-solid fa-money-check-dollar"></i>
+                <i class="fa-regular fa-calendar"></i>
                 <span>
-                    Account
+                    캘린더
+                </span>
+            </div>
+        </div>
+        <div class="icon-row more-icon">
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-shirt"></i>
+                <span>
+                    패션
+                </span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-regular fa-envelope"></i>
+                <span>
+                    메일
+                </span>
+            </div>
+            <a href="https://flexboxfroggy.com/#ko">
+                <div class="icon-row__icon">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span>
+                        게임
+                    </span>
+                </div>
+            </a>
+            <div class="icon-row__icon">
+                <i class="fa-solid fa-border-all"></i>
+                <span>
+                    전체 서비스
                 </span>
             </div>
         </div>
 
         <div class="more-suggestions">
-            <h4 class="more-suggestions__title">Suggestions</h4>
-            <div class="more-suggestions__icons">
-                <div class="more-suggestions__icon">
-                    <div class="more-suggestions__icon-image">
-                        <i class="fa-solid fa-quote-right"></i>
+            <h4 class="more-suggestions__title">광고</h4>
+            <a href="https://nomadcoders.co/">
+                <div class="more-suggestions__content">
+                    <div class="more-suggestions__content-img">
+                        <img src="img/ad.png" />
                     </div>
-                    <span class="more-suggestions__icon-text">Kokoa Story</span>
                 </div>
-                <div class="more-suggestions__icon">
-                    <div class="more-suggestions__icon-image">
-                        <i class="fa-solid fa-quote-right"></i>
-                    </div>
-                    <span class="more-suggestions__icon-text">Kokoa Story</span>
-                </div>
-            </div>
+
+            </a>
         </div>
     </main>
+
 
     <nav class="nav">
         <ul class="nav__list">
@@ -111,7 +163,7 @@
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>
+                    <span class="nav__notification badge">2</span>
                     <i class="fa-regular fa-comment fa-2x"></i>
                 </a>
             </li>
@@ -120,14 +172,15 @@
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="more.html">
-                    <span class="nav__notification badge badge--sm"></span>
+                    <span class="nav__notification--sm badge badge--sm"></span>
                     <i class="fa-solid fa-ellipsis fa-2x"></i>
                 </a>
             </li>
         </ul>
     </nav>
     <div id="no-mobile">
-        <span>Your screen is too big ㅠㅠ</span>
+        <span>화면 사이즈가 너무 큽니다.</span>
+        <span>사이즈를 줄여주세요.</span>
     </div>
 </body>
 

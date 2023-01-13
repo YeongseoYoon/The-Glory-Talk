@@ -1,22 +1,31 @@
-#chat-screen {
-  background-color: #abc1d1;
-  height: 500vh;
+#chat-screen1 {
+  background-color:var(--main-color);
+  height: 189vh;
 }
 
-#chat-screen .alt-header,
-#chat-screen .status-bar {
+#chat-screen2 {
+  background-color:var(--main-color);
+  height: 145vh;
+}
+
+#chat-screen3{
+  height: 130vh;
+}
+
+.chat-screen .alt-header,
+.chat-screen .status-bar {
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: var(--main-color);
   box-sizing: border-box;
 }
 
-#chat-screen .status-bar {
+.chat-screen .status-bar {
   z-index: 2;
 }
 
-#chat-screen .alt-header {
+.chat-screen .alt-header {
   top: 10px;
   z-index: 1;
 }
@@ -33,12 +42,13 @@
 }
 
 .main-chat {
-  margin-top: 180px;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
   animation: fadeIn 0.8s linear;
 }
+
 
 .chat__timestamp {
   color: white;
@@ -47,6 +57,10 @@
   font-size: 14px;
   border-radius: 25px;
   margin-bottom: 25px;
+}
+
+.message-row:nth-child(1){
+  animation-delay: 0.3s;
 }
 
 .message-row {
@@ -70,15 +84,28 @@
 .message__info {
   display: flex;
   align-items: flex-end;
+  position: relative;
+}
+
+.message__info .message__none-read{
+  position: absolute;
+  left:45px;
+  top:13px;
+  font-size: 13px;
 }
 
 .message__bubble {
-  background-color: white;
+  background-color: var(--font-color);
   padding: 13px;
-  font-size: 18px;
+  font-size: 15px;
   border-radius: 15px;
   border-top-left-radius: 0px;
   margin-right: 5px;
+  color: var(--main-color);
+}
+
+.message__bubble--nothing{
+  margin-left: 60px;
 }
 
 .message__time,
@@ -92,7 +119,6 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
@@ -101,6 +127,19 @@
 
 .message-row--own .message__info {
   flex-direction: row-reverse;
+}
+
+.message-row__content{
+  position: relative;
+}
+
+.message-row--own > .message-row__content > img{
+  position: absolute;
+  right: -10px;
+  top:-30px;
+  width: 40px;
+  height: 40px;
+  margin:0px;
 }
 
 .reply {
@@ -125,7 +164,7 @@
 }
 
 .reply i {
-  opacity: 0.5;
+  color: #92a4b2;
 }
 
 .reply input {
@@ -150,7 +189,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--main-color);
   border: none;
   width: 40px;
   height: 40px;
@@ -184,4 +223,10 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+#password-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 0px;
 }

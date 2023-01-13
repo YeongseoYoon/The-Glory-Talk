@@ -1,6 +1,6 @@
 @import "reset.css";
 @import "variables.css";
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 
 /* Components */
 @import "components/status-bar.css";
@@ -20,14 +20,33 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
+*{
+    font-family: 'Nanum Myeongjo', serif;
+    cursor: default;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+}
+
 body{
     height: 100%;
     box-sizing: border-box;
     margin: 42px 0px 73px 0px;
-    color:#2e363e;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--main-color);
+    color:azure;
+    font-family: 'Nanum Myeongjo', serif;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+}
+
+a, i{
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"]{
+    cursor: text;
 }
 
 body::-webkit-scrollbar {
@@ -36,4 +55,5 @@ body::-webkit-scrollbar {
 
 .main-screen{
     padding: 0px var(--horizontal-space);
+    margin-bottom: 90px;
 }

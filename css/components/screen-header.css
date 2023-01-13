@@ -12,7 +12,17 @@
 }
 
 .screen-header__icons span{
-    margin-left: 25px
+    margin-left: 25px;
+}
+
+.screen-header__icons span i
+{
+    transition: transform 0.2s linear;
+}
+
+.screen-header__icons span:hover i
+{
+    transform: translateY(-10px);
 }
 
 .screen-header__icons > span{
@@ -20,7 +30,7 @@
     position: relative;
 }
 
-.screen-header__whitecircle{
+.screen-header__circle{
     position: absolute;
     left: -12px;
     bottom: 2px;
@@ -28,7 +38,6 @@
     display: block;
     width: 10px;
     height: 10px;
-    background-color: white;
 }
 
 .screen-header__icons .fa-plus{
@@ -38,15 +47,3 @@
     background-color: white;
 }
 
-@keyframes rotateCog{
-    from{
-        transform: none;
-    }
-    to{
-        transform: rotateZ(360deg);
-    }
-}
-
-.screen-header__icons .fa-gear:hover{
-    animation: rotateCog 1s linear infinite;
-}

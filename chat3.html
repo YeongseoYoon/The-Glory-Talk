@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat | The Glory Talk</title>
+    <link href="img/백합.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/css/styles.css" rel="stylesheet" />
+    <script defer src="https://kit.fontawesome.com/ec08099fdd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="chat-screen" id="chat-screen3">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service <i class="fa-solid fa-wifi"></i></span>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>76%</span>
+            <!--To Do: Battery Icon-->
+            <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+            <!--To Do: Lightning Icon-->
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fa-solid fa-angle-left fa-3x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">주여정 선배님</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-search fa-lg"></i></span>
+            <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, Sep 15, 2020
+        </div>
+
+        <div class="message-row">
+            <img src="img/주여정.jpg" />
+            <div class="message-row__content">
+                <span class="message__author">주여정 선배님</span>
+                <div class="message__info">
+                    <span class="message__bubble">오늘 하늘 봤어요? 엄청 맑던데</span>
+                    <span class="message__time">14:27</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat__timestamp">
+            Sunday, Dec 19, 2021
+        </div>
+
+        <div class="message-row">
+            <img src="img/주여정.jpg" />
+            <div class="message-row__content">
+                <span class="message__author">주여정 선배님</span>
+                <div class="message__info">
+                    <span class="message__bubble">폭설이래요 오늘. 안 넘어지게 아장아장 걸으라고. 잘 지내요.</span>
+                    <span class="message__time">10:11</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat__timestamp">
+            Saturday, Aug 27, 2022
+        </div>
+
+        <div class="message-row">
+            <img src="img/주여정.jpg" />
+            <div class="message-row__content">
+                <span class="message__author">주여정 선배님</span>
+                <div class="message__info">
+                    <span class="message__bubble">내 번호 저장은 했어요? 안 했으면 저장하기 편하라고</span>
+                    <span class="message__time">12:52</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble message__bubble--nothing">참고로 주여정입니다</span>
+                    <span class="message__time">12:54</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat__timestamp">
+            Tuesday, Jan 10, 2023
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <img src="/img/백합.png" />
+                <div class="message__info">
+                    <span class="message__bubble">
+                        <img id="password-img" src="img/졸피뎀.png" />
+                    </span>
+                    <span class="message__time">20:35</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <img src="/img/백합.png" />
+                <div class="message__info">
+                    <span class="message__bubble">이 약 무슨 약인가요</span>
+                    <span class="message__time">20:36</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-solid fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="fa-regular fa-smile-wink fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+
+    </form>
+    <div id="no-mobile">
+        <span>화면 사이즈가 너무 큽니다.</span>
+        <span>사이즈를 줄여주세요.</span>
+    </div>
+
+</body>
+
+</html>

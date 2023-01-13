@@ -1,5 +1,24 @@
 .user-component{
+    margin:10px 0px;
     justify-content: space-between;
+    transition: all 0.2s linear;
+    border-radius: 20px;
+    padding: 10px 5px;
+}
+
+.user-component:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 2px 10px azure;
+}
+
+.user-component,
+.user-component__column,
+.user-component__column img,
+.user-component__column h4,
+.user-component__column h6,
+.user-component__column span
+{
+    cursor: pointer;
 }
 
 .user-component, 
@@ -34,12 +53,23 @@
 
 .user-component__title--not-bold{
     font-weight: 400;
+    font-size:18px;
 }
 
 .user-component__subtitle{
     margin-top: 8px;
     font-size: 17px;
-    color: var(--grey);
+    color: var(--font-sub-color);
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-component__subtitle--small{
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--font-sub-color);
 }
 
 .user-component__column:last-child{
@@ -49,7 +79,12 @@
     align-items: flex-end;
 }
 
+.user-component__column{
+    position: relative;
+}
+
 .user-component__time{
     margin-bottom: 10px;
     display: block;
+    color:var(--font-color);
 }
