@@ -108,4 +108,32 @@
     display: block;
     color:var(--font-color);
     font-size: 15px;
+    padding:0px 5px;
+}
+
+@media screen and (max-width:410px) {
+    .user-component__title{
+      font-size: 18px;
+    }
+    .user-component__subtitle{
+        font-size: 14px;
+    }
+
+    .user-component__avatar{
+        width: 60px;
+        width: 60px;
+    }
+
+    .user-component__time{
+        font-size: 13px;
+    }
+
+    .chats-list .user-component__column:first-child{
+        width: 80%;
+    }
+    
+    .chats-list .user-component__column:nth-child(2){
+        width: 20%;
+    }
+    
 }
