@@ -229,7 +229,7 @@
 
 
 
-@media screen and (max-width:330px) {
+@media screen and (max-width:448px) {
     .open-chat__title{
         font-size:14px;
     }

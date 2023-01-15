@@ -41,7 +41,7 @@
     width: 25%;
 }
 
-@media screen and (min-width:330px) and (max-width:335px) {
+@media screen and (min-width:448px) and (max-width:500px) {
     .icon-row{
         display: flex;
         justify-content: space-between;
@@ -52,7 +52,7 @@
     
 }
 
-@media screen and (max-width:330px) {
+@media screen and (max-width:448px) {
     .icon-row__icon{
         padding: 5px 10px;
     }
