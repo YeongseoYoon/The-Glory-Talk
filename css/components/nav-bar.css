@@ -68,3 +68,13 @@
 .nav__btn:last-child{
     animation-delay: 0.9s;
 }
+
+@media screen and (max-width:330px) {
+    .status-bar__column{
+      font-size: 13px;
+    }
+
+    .nav__list i{
+        font-size: 20px;
+    }
+}

@@ -138,7 +138,7 @@
     
 }
 
-@media screen and (max-width:380px) {
+@media screen and (min-width:330px) and (max-width:380px) {
     .user-component__title{
       font-size: 15px;
       width: 80px;
@@ -162,6 +162,34 @@
     
     .chats-list .user-component__column:nth-child(2){
         width: 20%;
+    }
+    
+}
+
+@media screen and (max-width:330px) {
+    .user-component__title{
+      font-size: 13px;
+      width: 80px;
+    }
+    .user-component__subtitle{
+        font-size: 12px;
+    }
+
+    .user-component__avatar{
+        width: 40px;
+        width: 40px;
+    }
+
+    .user-component__time{
+        font-size: 13px;
+    }
+
+    .chats-list .user-component__column:first-child{
+        width: 70%;
+    }
+    
+    .chats-list .user-component__column:nth-child(2){
+        width: 30%;
     }
     
 }

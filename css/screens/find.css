@@ -227,3 +227,34 @@
     animation: heartBeat 1s linear infinite;
 }
 
+
+
+@media screen and (max-width:330px) {
+    .open-chat__title{
+        font-size:14px;
+    }
+
+    .open-chat__header span{
+        font-size: 13px;
+    }
+    
+    .open-post__title{
+        line-height: 17px;
+        font-size: 16px;
+    }
+
+    .open-post__hashtags{
+        font-size: 13px;
+    }
+
+    .open-post__member-status{
+        font-size: 14px;
+    }
+
+    .open-post__photo img{
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+    }
+    
+}

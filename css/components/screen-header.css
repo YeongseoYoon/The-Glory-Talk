@@ -79,3 +79,21 @@
         transform: scale(1);
     }
 }
+
+@media screen and (max-width:330px) {
+    .screen-header__title{
+      font-size: 25px;
+    }
+
+    .screen-header__icons i{
+        font-size: 13px;
+    }
+
+    .screen-header__icons .fa-plus{
+        position: absolute;
+        left: 7px;
+        bottom: 6px;
+        background-color: white;
+    }
+    
+}

@@ -24,3 +24,24 @@
     left:20px;
     bottom: 20px;
 }
+
+@media screen and (max-width:330px) {
+    .badge{
+        width: 20px;
+        height: 20px;
+    }
+
+    .badge--sm{
+        width: 5px;
+        height: 5px;
+        left:25px;
+        bottom: 25px;
+    }
+
+    .badge-gear{
+        position: absolute;
+        left:15px;
+        bottom: 15px;
+    }
+
+}

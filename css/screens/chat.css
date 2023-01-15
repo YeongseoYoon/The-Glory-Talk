@@ -217,8 +217,8 @@
 }
 
 .reply input:focus {
-  width: 100vw;
-  transform: translateX(-13%) translateY(-80px);
+  width: 98vw;
+  transform: translateX(-15%) translateY(-80px);
 }
 
 .reply:focus-within {
@@ -229,4 +229,15 @@
   width: 200px;
   height: 200px;
   border-radius: 0px;
+}
+
+@media screen and (max-width:330px) {
+  .message__bubble{
+    font-size: 12px;
+  }
+
+  .message__time{
+    font-size: 10px;
+  }
+
 }

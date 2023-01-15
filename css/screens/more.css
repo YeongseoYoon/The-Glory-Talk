@@ -167,3 +167,27 @@
   }
   
   
+@media screen and (max-width:330px) {
+    .user-wallet-header__column span{
+        font-size: 14px;
+    }
+    .user-wallet-header__column span i{
+        font-size: 10px;
+    }
+
+    .user-wallet__column span{
+        font-size: 14px;
+    }
+    .user-wallet__column span i{
+        font-size: 10px;
+    }
+
+    .user-wallet-box__column span{
+        font-size: 13px;
+    }
+
+    .user-wallet-send__column span{
+        font-size: 10px;
+    }
+    
+}
