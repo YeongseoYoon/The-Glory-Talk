@@ -49,7 +49,6 @@
     border-radius: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
     color: azure;
 }
 
@@ -188,4 +187,12 @@
               filter: blur(0px);
       opacity: 1;
     }
+  }
+
+  .music__column{
+    width: 33%;
+  }
+
+  .music__column a{
+    width: 100%;
   }
