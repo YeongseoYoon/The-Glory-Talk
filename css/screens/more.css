@@ -111,6 +111,7 @@
 .more-suggestions{
     margin: 40px var(--horizontal-space) 0px var(--horizontal-space);
     padding-top: 25px;
+    padding-bottom: 90px;
     border-top: var(--main-border);
 }
 
