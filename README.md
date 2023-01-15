@@ -1,3 +1,3 @@
-#Kokoa Clone 2023 Update
+#The Glory Talk 2023 Update
 
-Practice for FE
+Clone Coding
