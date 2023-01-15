@@ -62,5 +62,5 @@ body::-webkit-scrollbar {
 
 .main-screen{
     padding: 0px var(--horizontal-space);
-    margin-bottom: 90px;
+    padding-bottom: 90px;
 }

@@ -111,12 +111,40 @@
     padding:0px 5px;
 }
 
-@media screen and (max-width:410px) {
+@media screen and  (min-width:380px) and (max-width:410px) {
     .user-component__title{
       font-size: 18px;
     }
     .user-component__subtitle{
         font-size: 14px;
+    }
+
+    .user-component__avatar{
+        width: 60px;
+        width: 60px;
+    }
+
+    .user-component__time{
+        font-size: 13px;
+    }
+
+    .chats-list .user-component__column:first-child{
+        width: 80%;
+    }
+    
+    .chats-list .user-component__column:nth-child(2){
+        width: 20%;
+    }
+    
+}
+
+@media screen and (max-width:380px) {
+    .user-component__title{
+      font-size: 15px;
+      width: 80px;
+    }
+    .user-component__subtitle{
+        font-size: 12px;
     }
 
     .user-component__avatar{
