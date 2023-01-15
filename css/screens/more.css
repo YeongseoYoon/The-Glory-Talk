@@ -23,8 +23,16 @@
 }
 
 .user-wallet-header__column{
+    padding:5px 15px;
     width: 50%;
 }
+.user-wallet-pay__column,
+.user-wallet-send__column,
+.user-wallet-box__column,
+.user-wallet__column{
+    padding:5px 15px;
+}
+
 
 @keyframes walletIconShaking {
     0%{
