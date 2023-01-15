@@ -8,9 +8,10 @@
     border: none;
     background: none;
   }
+  
 
+  
   .music-screen{
-    position: fixed;
     width: 100%;
     margin-top:90px;
     padding:10px 0px;
@@ -29,7 +30,6 @@
   .music-inside-main{
     position: fixed;
     width: 90%;
-    margin: 90px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,9 +112,9 @@
   
   .song-list-main {
     width: 90%;
-    margin: 90px 0px;
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
   }
 
   .song-list{
@@ -445,7 +445,7 @@
   }
 
   .player-bar{
-    margin: 30px 0px;
+    margin-top: 15px;
     width:90%;
   }
 
