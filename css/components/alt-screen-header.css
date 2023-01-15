@@ -34,6 +34,14 @@
     margin-left:20px;
 }
 
+.alt-header__title--music,
+.alt-header__title--setting
+{
+    font-size: 32px !important;
+}
+
+
+
 @media screen and  (min-width:448px) and (max-width:520px) {
     .alt-header__title{
       font-size: 25px;
