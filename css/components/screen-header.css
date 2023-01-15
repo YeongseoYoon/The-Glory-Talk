@@ -6,10 +6,30 @@
     margin-bottom: 15px;
 }
 
+.screen-header__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+
+.screen-header__column:last-child{
+    display: flex;
+    justify-content: end;
+}
+
+
 .screen-header__title{
     font-size: 32px;
     font-weight: 600;
 }
+
+.screen-header__line {
+    position: relative; 
+    width: 100px;
+    height: 30px;
+    display:inline-block; 
+    margin:0;
+}
+
 
 .screen-header__icons span{
     margin-left: 25px;
@@ -47,3 +67,15 @@
     background-color: white;
 }
 
+.screen-header__icons .fa-music{
+    will-change: transform;
+    animation: musicTrans 0.4s linear infinite;
+}
+
+@keyframes musicTrans {
+    from{
+        transform: scale(1.2);
+    }to{
+        transform: scale(1);
+    }
+}

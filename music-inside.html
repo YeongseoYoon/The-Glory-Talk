@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now Playing | The Glory Talk</title>
+    <link href="img/백합.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/css/styles.css" rel="stylesheet" />
+    <script defer src="https://kit.fontawesome.com/ec08099fdd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="chat-screen music-screen music-inside-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service <i class="fa-solid fa-wifi"></i></span>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>76%</span>
+            <!--To Do: Battery Icon-->
+            <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+            <!--To Do: Lightning Icon-->
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="music.html">
+                <i class="fa-solid fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-search fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="song-list-main music-inside-main">
+        <section class="main-song">
+            <div class="main-song__img">
+                <img src="/img/album3.jpg" />
+            </div>
+            <div class="main-text">
+                <h2 class="main-title main-song__title">
+                    BORN HATER (Feat. 빈지노, 버벌진트, B.I, MINO, BOBBY)</h2>
+                <h3 class="main-subtitle main-song__subtitle">
+                    에픽하이 (EPIK HIGH)
+                </h3>
+            </div>
+        </section>
+
+        <section class="player-bar">
+            <div class="player-bar-progress">
+                <div class="player-bar-progress__bar">
+                    <div class="player-bar-progress__bar-start">
+                    </div>
+                    <img class="player-bar-progress__bar-flower" src="img/백합.png" />
+                </div>
+                <div class="player-bar-progress__text">
+                    <span>1:45</span>
+                    <span>3:08</span>
+                </div>
+            </div>
+            <div class="player-bar-btns">
+                <i class="fa-solid fa-repeat fa-lg"></i>
+                <i class="fa-solid fa-backward-step fa-xl"></i>
+                <div class="player-bar-btns__play-btn">
+                    <i class="fa-solid fa-play fa-xl"></i>
+                </div>
+                <i class="fa-solid fa-forward-step fa-xl"></i>
+                <i class="fa-solid fa-shuffle fa-lg"></i>
+            </div>
+        </section>
+
+    </main>
+
+    <div id="no-mobile">
+        <span>화면 사이즈가 너무 큽니다.</span>
+        <span>사이즈를 줄여주세요.</span>
+    </div>
+</body>
+
+</html>

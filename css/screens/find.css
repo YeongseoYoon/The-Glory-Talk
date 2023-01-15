@@ -45,8 +45,10 @@
   
   .recommended-friends__contents::-webkit-scrollbar-thumb {
     border-radius: 80px;
-    background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+    background: rgb(55,41,72);
+    background: linear-gradient(90deg, rgba(55,41,72,1) 0%, rgba(255,202,202,1) 49%, rgba(255,236,239,1) 100%);
     box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+    border: 1px solid #d4aa70;
   }
 
 .recommended-friends__contents-content{
@@ -62,6 +64,9 @@
     transform: translateY(-10px);
     box-shadow: 0px 2px 10px azure;
 }
+
+
+
 
 .recommended-friends__contents-content img{
     width: 100px;
