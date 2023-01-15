@@ -49,6 +49,9 @@
 .user-component__title{
     font-weight: 600;
     font-size: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .user-component__title--not-bold{
