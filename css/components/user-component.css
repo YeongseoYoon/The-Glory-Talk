@@ -28,6 +28,8 @@
 }
 
 .user-component__avatar{
+    min-width:70px;
+    min-height:70px;
     width:70px;
     height:70px;
     border-radius: 30px;
@@ -38,12 +40,20 @@
 .user-component__avatar--xl{
     width:80px;
     height:80px;
+    min-width:80px;
+    min-height:80px;
 }
 
 .user-component__avatar--sm{
     width:60px;
     height:60px;
+    min-width:60px;
+    min-height:60px;
     border-radius: 23px;
+}
+
+.user-component__text{
+    width: 80%;
 }
 
 .user-component__title{
@@ -63,7 +73,6 @@
     margin-top: 8px;
     font-size: 17px;
     color: var(--font-sub-color);
-    width: 250px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -82,6 +91,14 @@
     align-items: flex-end;
 }
 
+.chats-list .user-component__column:first-child{
+    width: 85%;
+}
+
+.chats-list .user-component__column:nth-child(2){
+    width: 15%;
+}
+
 .user-component__column{
     position: relative;
 }
@@ -90,4 +107,5 @@
     margin-bottom: 10px;
     display: block;
     color:var(--font-color);
+    font-size: 15px;
 }

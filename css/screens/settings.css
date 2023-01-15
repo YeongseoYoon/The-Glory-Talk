@@ -36,3 +36,20 @@
     border: 2px solid rgba(147, 147, 147, 0.8);
     background-color: var(--font-color);
   }
+
+  @media screen and (max-width:428px) {
+    .user-profile-edit{
+      width: 30px;
+      height: 30px;
+
+    }
+    .big-screen{
+        display: none;
+    }
+}
+
+@media screen and (min-width:428px) {
+  .small-screen{
+      display: none;
+  }
+}
