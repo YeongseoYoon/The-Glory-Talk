@@ -11,11 +11,11 @@
 
   .music-screen{
     width: 100%;
-    position: relative;
+    margin:10px 0px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
   }
 
   .music-inside-screen{
@@ -101,13 +101,12 @@
     margin: 0px 3px;
     height: 40px;
   }
- 
+  
   .song-list-main {
     width: 90%;
-    margin-top: 60px;
+    margin: 90px 0px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
 
   .song-list{
@@ -147,7 +146,7 @@
   .song-list__song i{
     position: absolute;
     right: 10px;
-    color:var(--font-color);
+    color:#706677;
   }
 
   .song-info__img{
@@ -174,6 +173,7 @@
     -webkit-animation: jello-vertical 0.5s both;
     animation: jello-vertical 0.5s both infinite;
   }
+
 
   @-webkit-keyframes jello-vertical {
     0% {
@@ -235,7 +235,7 @@
               transform: scale3d(1, 1, 1);
     }
   }
-  
+
 
   .song-info-now__img{
     filter:brightness(50%);
@@ -247,6 +247,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin: 0px 10px;
+    width: 60%;
   }
 
   .song-info__singer{
@@ -257,13 +258,12 @@
 
   .song-info__title{
     padding:5px 0px;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 12px;
     color: #706677;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    width: 80%;
     font-weight: 700;
   }
 
@@ -402,7 +402,7 @@
   .play-now__btns i:last-child
   {
     opacity: 0.8;
-  }
+  } */
 
 
   .main-song__img{
