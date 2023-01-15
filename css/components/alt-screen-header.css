@@ -42,7 +42,7 @@
 
 
 
-@media screen and  (min-width:448px) and (max-width:520px) {
+@media screen and  (min-width:500px) and (max-width:600px) {
     .alt-header__title{
       font-size: 25px;
     }
@@ -50,7 +50,7 @@
     
 }
 
-@media screen and (min-width:330px) and (max-width:448px) {
+@media screen and (min-width:448px) and (max-width:500px) {
     .alt-header__title{
       font-size: 16px;
     }
@@ -63,7 +63,7 @@
 }
 
 
-@media screen and (max-width:330px){
+@media screen and (max-width:448px){
     .alt-header__title--music,
     .alt-header__title--setting{
         font-size: 20px;

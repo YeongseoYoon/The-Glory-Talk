@@ -199,7 +199,7 @@
     width: 100%;
   }
 
-@media screen and (max-width:330px) {  
+@media screen and (max-width:448px) {  
   .float-sidebar{
     padding: 5px 0px;
     border-radius: 15px;
